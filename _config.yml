@@ -11,6 +11,15 @@ description: "My Site Description Lorem Ipsum Dolor Sit Amet" #A description tha
 email: youremail+scioly@example.com #A contact email
 baseurl: "/SciOly-Website" # the name of your forked repository. If you renamed it to username.github.io, leave this blank.
 url: "https://user.github.io" # the base hostname & protocol for your site
+# Links for the header and footer. Put the link in the url field and the text in the name field.
+url1: "https://example.com"
+name1: "Example"
+url2: "https://example.com"
+name2: "Example"
+url3: "https://example.com"
+name3: "Example"
+url4: "lukemetoki.js.org"
+url4: "Developer's site"
 # Build settings
 markdown: kramdown
 include:
