@@ -7,9 +7,10 @@
 
 # Site settings
 title: Science Olympiad Website Template
-email: scioly-website@metoki.anonaddy.me
-baseurl: "/SciOly-Website" # the subpath of your site, e.g. /blog
-url: "https://luke2m.github.io" # the base hostname & protocol for your site
+description: "My Site Description Lorem Ipsum Dolor Sit Amet" #A description that will show up in search results
+email: youremail+scioly@example.com #A contact email
+baseurl: "/SciOly-Website" # the name of your forked repository. If you renamed it to username.github.io, leave this blank.
+url: "https://user.github.io" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 include:
