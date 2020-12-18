@@ -5,16 +5,13 @@
 	<title>{{ page.title }} </title>
 	<meta charset="utf-8">
 
-	<meta name="title" content="Hudson Middle School Science Olympiad">
-	<link rel="canonical" href="https://hmsscioly.js.org/" />
+	<meta name="title" content="{{ site.title }}">
 	<meta name="description" content="Learn more about Hudson Middle School Science Olympiad. Science Olympiad is an extracurricular activity where we learn about all forms of science. We compete against other teams, and the competitions are like track meets, with 23 different events. Events are in three major categories: build, test, and lab. Most events are done with a partner. Science Olympiad requires practice, determination, and preparation.">
-	<link rel="stylesheet" href="/css/main.css">
-	<link rel="stylesheet" href="/css/menu.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/menu.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css2?family=Space+Mono&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	<script src="https://use.fontawesome.com/c3dc2f3a63.js"></script>
-	<meta name="google-site-verification" content="kXmrbyPyWIAbstpVXRW8dFt4uLTLYAzEmXVdTy9BVVo" />
-	<meta name="google-site-verification" content="pIJ63aevyBcOnsY-I80T3CAtACm-eS7crDpwAHxOcDI" />
 </head>
 <body>
 	<h1 style=" text-align: center;">
@@ -23,7 +20,7 @@
 {{ content }}
 		
 		<footer>
-			<p><a href="https://scioly.netlify.app">Home</a> | <a href="https://www.hudson.k12.oh.us">Back to HMS website</a> | <a href="/contact.html">Contact</a> | <a href="/links.html">Resources</a> | <a href="/pages.html">Pages</a></p>
+			<p><a href="{{ site.url1 }}">{{ site.name1 }}</a> | <a href="{{ site.url2 }}">{{ site.name2 }}</a> | <a href="{{ site.url3 }}"> {{ site.name3 }}</a> | <a href="/links.html">Resources</a> | <a href="/pages.html">Pages</a></p>
 		<div id="wcb" class="carbonbadge"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.1/b.min.js" defer></script>
 			<p style="text-align: right;"><a href="#">Back to top</a></p>
