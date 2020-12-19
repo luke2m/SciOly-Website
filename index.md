@@ -1,17 +1,23 @@
 ---
-title: Hudson Middle School Science Olympiad
+title: "My School Science Olympiad"
 layout: homepage
+notice: "Write a notice here"
 ---
  {% include carousel.html height="50" unit="%" duration="7" %}
-<p><strong>Watch <a href="https://youtu.be/Y19-EAbRHOI">this video </a>for more information.</strong></p>
-<p><strong>Please contact Dr. Renna at <a href="mailto:jrenna@uakron.edu">jrenna@uakron.edu</a> if you have any questions.</strong></p>
+<p><strong>{{ page.notice }}</strong></p>
+<p><strong>Please contact <a href="mailto:{{ site.email }}">{{ site.email }}</a> if you have any questions.</strong></p>
 <h2>Latest News</h2>
 <hr />
-<script src="//rss.bloople.net/?url=https%3A%2F%2Fscioly-blog.netlify.app%2Ffeed.xml&detail=20&limit=2&showtitle=false&type=js"></script>
-<noscript>
-<p>Your browser does not support JavaScript. Visit <a href="https://scioly-blog.netlify.app">scioly-blog.netlify.app</a> for news about HMS SciOly.</p>
-</noscript>
-<p style="text-align: right;"><a href="https://scioly-blog.netlify.app"> See more news </a></p>
+<h4>Latest Post</h4>
+{% for post in site.posts limit:1 %}
+... Show the first post all big ...
+{% endfor %}
+<h4>Recent Posts</h4>
+{% for post in site.posts offset:1 limit:2 %}
+... Show the next two posts ...
+{% endfor %}
+
+<p style="text-align: right;"><a href="{{ site.baseurl }}/pages"> See more news </a></p>
 
 <h2> What is Science Olympiad? </h2>
 <hr />
