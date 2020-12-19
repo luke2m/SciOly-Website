@@ -1,6 +1,6 @@
 images: 
-  - image: {{ site.baseurl }}/uploads/slider/Logo.jpeg
-  - image: {{ site.baseurl }}/uploads/slider/ELG.jpeg
-  - image: {{ site.baseurl }}/uploads/slider/Team.jpeg
-  - image: {{ site.baseurl }}/uploads/slider/Trophy.jpeg
-  - image: {{ site.baseurl }}/uploads/slider/study.jpg
+  - image: '{{ site.baseurl }}/uploads/slider/Logo.jpeg'
+  - image: '{{ site.baseurl }}/uploads/slider/ELG.jpeg'
+  - image: '{{ site.baseurl }}/uploads/slider/Team.jpeg'
+  - image: '{{ site.baseurl }}/uploads/slider/Trophy.jpeg'
+  - image: '{{ site.baseurl }}/uploads/slider/study.jpg'
